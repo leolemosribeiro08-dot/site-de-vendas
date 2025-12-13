@@ -1,0 +1,52 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background: #f4f6f8;
+      color: #222;
+    }
+
+    header {
+      background: #0f172a;
+      color: #fff;
+      padding: 20px 40px;
+      text-align: center;
+    }
+
+    /* Container para centralizar */
+.link-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+/* Link com cara de botão */
+.link-btn {
+  display: inline-block;
+  background: #222;
+  color: #fff;
+  text-decoration: none; /* tira sublinhado */
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+/* Hover */
+.link-btn:hover {
+  background: linear-gradient(135deg, #15803d, #16a34a);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.2);
+}
+
+/* Clique */
+.link-btn:active {
+  transform: scale(0.97);
+}
+
