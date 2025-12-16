@@ -1,71 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Energym loja</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+    <link rel="stylesheet" href="contato.css">
 </head>
 <body>
 
-<header>
-  <h1>CT Energym Loja</h1>
-  <nav>
-    <a href="#">Produtos</a>
-    <a href="#">Carrinho</a>
-    <a href="contato.html">Contato</a>
-  </nav>
-</header>
+    <header>
+        <h1>Contato</h1>
+    </header>
 
-<main class="container">
-  <section class="products">
+    <main>
+        <div class="container">
+            <a href="https://api.whatsapp.com/send?phone=5551981621430"
+               class="link-btn" target="_blank">
+                WhatsApp
+            </a>
+        </div>
 
-    <div class="product">
-      <img src="img/creatina.jpg" alt="Creatina">
-      <h2>Creatina Monohidratada</h2>
-      <p>Aumento de força, explosão muscular e performance.</p>
-      <div class="price">R$ 75</div>
-       <button class="btn" onclick="addToCart('creatina', 78 )">Adicionar ao carrinho</div>
+        <div class="container">
+            <a href="https://www.instagram.com/ct.energym"
+               class="link-btn instagram" target="_blank">
+                Instagram
+            </a>
+        </div>
+    </main>
 
-    <div class="product">
-      <img src="img/whey.jpg" alt="Whey Protein">
-      <h2>Whey Protein</h2>
-      <p>Proteína de alta absorção para ganho de massa muscular.</p>
-      <div class="price">R$ 58</div>
-       <button class="btn" onclick="addToCart('whey protein', 58)">
-        Adicionar ao carrinho
-    </div>
-
-    <div class="product">
-      <img src="img/camisas.jpg" alt="Camisa Fitness">
-      <h2>Camisa Fitness</h2>
-      <p>Conforto e estilo para seus treinos.</p>
-      <div class="price">R$ 40</div>
-      <button class="btn" onclick="addToCart('camisas', 40.00)">
-  Adicionar ao carrinho
-</button>
-
-    </div>
-
-  </section>
-</main>
-
-
-
-
-
-
-
-<button onclick="addToCart('Creatina', 99.90)">Comprar</button>
-<footer>
-  © 2025 CT Energym loja • Loja oficial
-</footer>
-
-
-
-
-<script src="js/cart.js"></script>
 </body>
 </html>
